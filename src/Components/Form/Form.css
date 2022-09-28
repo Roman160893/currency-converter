@@ -1,0 +1,58 @@
+body {
+   background: rgb(195, 194, 193);
+   position: relative;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.wrapper {
+   border: 1px solid;
+   padding: 50px 10px;
+   border-radius: 10px;
+   background: white;
+   width: 100%;
+   max-width: 600px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+@media screen and (max-width: 780px) {
+   .wrapper {
+      width: 95%;
+      margin: 0 auto;
+      padding: 10px 5px;
+   }
+}
+
+.form {
+   display: inline-block;
+   margin-right: 20px;
+}
+
+
+.form input {
+   border: 2px solid rgb(178, 179, 173);
+   padding: 5px;
+   margin-right: 5px;
+   border-radius: 5px;
+}
+.form select {
+   border: 2px solid rgb(178, 179, 173);
+   padding: 4px;
+   border-radius: 5px;
+}
+
+.header {
+   font-size: 25px;
+   color: rgb(50, 24, 156);
+   margin-bottom: 25px;
+}
+
+h2 {
+   margin-top: 15px;
+   color: rgb(92, 94, 90);
+}
